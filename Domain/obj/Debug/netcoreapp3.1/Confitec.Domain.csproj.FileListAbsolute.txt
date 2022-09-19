@@ -1,0 +1,8 @@
+C:\Projetos\Confitec\TesteConfitec\Domain\bin\Debug\netcoreapp3.1\Confitec.Domain.deps.json
+C:\Projetos\Confitec\TesteConfitec\Domain\bin\Debug\netcoreapp3.1\Confitec.Domain.dll
+C:\Projetos\Confitec\TesteConfitec\Domain\bin\Debug\netcoreapp3.1\Confitec.Domain.pdb
+C:\Projetos\Confitec\TesteConfitec\Domain\obj\Debug\netcoreapp3.1\Confitec.Domain.AssemblyInfoInputs.cache
+C:\Projetos\Confitec\TesteConfitec\Domain\obj\Debug\netcoreapp3.1\Confitec.Domain.AssemblyInfo.cs
+C:\Projetos\Confitec\TesteConfitec\Domain\obj\Debug\netcoreapp3.1\Confitec.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\Confitec\TesteConfitec\Domain\obj\Debug\netcoreapp3.1\Confitec.Domain.dll
+C:\Projetos\Confitec\TesteConfitec\Domain\obj\Debug\netcoreapp3.1\Confitec.Domain.pdb

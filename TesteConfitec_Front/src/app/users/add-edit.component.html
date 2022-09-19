@@ -1,0 +1,64 @@
+﻿<h1 *ngIf="isAddMode">Adicionar Usuario</h1>
+<h1 *ngIf="!isAddMode">Editar Usuario</h1>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="form-row">
+        <div class="form-group col-5">
+            <label>Nome</label>
+            <input type="text" formControlName="nome" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.nome.errors }" />
+            <div *ngIf="submitted && f.nome.errors" class="invalid-feedback">
+                <div *ngIf="f.nome.errors.required">O nome é obrigatório</div>
+            </div>
+        </div>
+        <div class="form-group col-5">
+            <label>Sobrenome</label>
+            <input type="text" formControlName="sobrenome" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.sobrenome.errors }" />
+            <div *ngIf="submitted && f.sobrenome.errors" class="invalid-feedback">
+                <div *ngIf="f.sobrenome.errors.required">O Sobrenome é obrigatório</div>
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-7">
+            <label>Email</label>
+            <input type="text" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+            <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                <div *ngIf="f.email.errors.required">Selecione o Email</div>
+                <div *ngIf="f.email.errors.email">O Email deve ser valido</div>
+            </div>
+        </div>
+        <div class="form-group col-7">
+            <label>Data de Nascimento</label>
+            <input type="datetime-local" class="form-control" name="data" id="data" formControlName="dataNascimento">
+            <div *ngIf="submitted && f.dataNascimento.errors" class="invalid-feedback">
+                <div *ngIf="f.dataNascimento.errors.required">Informe a Data de Nascimento</div>
+            </div>
+        </div>
+        <div class="form-group col">
+            <label>Escolaridade</label>
+            <select formControlName="escolaridadeId" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.escolaridadeId.errors }">
+                <option value="0"></option>
+                <option *ngFor="let escolaridade of escolaridades" [value]="escolaridade.id">{{escolaridade.descricao}}</option>
+            </select>
+            <div *ngIf="submitted && f.escolaridadeId.errors" class="invalid-feedback">
+               <div *ngIf="f.escolaridadeId.errors.required">Selecione a escolaridade</div>
+            </div>
+        </div>
+        <div *ngIf="isAddMode" class="form-group col-5">
+            <label for="formFile" class="form-label">Histórico Escolar</label>
+            <input type="file"
+                   (change)="handleFile($event)"
+                   class="form-control">
+            <div *ngIf="submitted && f.filearq.errors" class="invalid-feedback">
+                    <div *ngIf="f.filearq.errors.required">Selecione o arquivo PDF</div>
+            </div>
+        </div>  
+
+    </div>
+    <div class="form-group">
+        <button [disabled]="loading" class="btn btn-primary">
+            <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+            Salvar
+        </button>
+        <a routerLink="/users" class="btn btn-link">Cancelar</a>
+    </div>
+</form>

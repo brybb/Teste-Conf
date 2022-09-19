@@ -1,0 +1,12 @@
+C:\Projetos\Confitec\TesteConfitec\Confitec.Application\bin\Debug\netcoreapp3.1\Confitec.Application.deps.json
+C:\Projetos\Confitec\TesteConfitec\Confitec.Application\bin\Debug\netcoreapp3.1\Confitec.Application.dll
+C:\Projetos\Confitec\TesteConfitec\Confitec.Application\bin\Debug\netcoreapp3.1\Confitec.Application.pdb
+C:\Projetos\Confitec\TesteConfitec\Confitec.Application\obj\Debug\netcoreapp3.1\Confitec.Application.AssemblyInfoInputs.cache
+C:\Projetos\Confitec\TesteConfitec\Confitec.Application\obj\Debug\netcoreapp3.1\Confitec.Application.AssemblyInfo.cs
+C:\Projetos\Confitec\TesteConfitec\Confitec.Application\obj\Debug\netcoreapp3.1\Confitec.Application.csproj.CoreCompileInputs.cache
+C:\Projetos\Confitec\TesteConfitec\Confitec.Application\obj\Debug\netcoreapp3.1\Confitec.Application.dll
+C:\Projetos\Confitec\TesteConfitec\Confitec.Application\obj\Debug\netcoreapp3.1\Confitec.Application.pdb
+C:\Projetos\Confitec\TesteConfitec\Confitec.Application\bin\Debug\netcoreapp3.1\Confitec.Domain.dll
+C:\Projetos\Confitec\TesteConfitec\Confitec.Application\bin\Debug\netcoreapp3.1\Confitec.Domain.pdb
+C:\Projetos\Confitec\TesteConfitec\Confitec.Application\obj\Debug\netcoreapp3.1\Confitec.Application.csprojAssemblyReference.cache
+C:\Projetos\Confitec\TesteConfitec\Confitec.Application\obj\Debug\netcoreapp3.1\Confitec.Application.csproj.CopyComplete
